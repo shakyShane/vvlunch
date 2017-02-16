@@ -8,11 +8,38 @@
         "logo": "http://example.com/avatar"
       },
       "location": {
-        "lat": 52.953353,
-        "lng": -1.143487,
+        "lat": "52.953353",
+        "lng": "-1.143487",
         "city": "Nottingham",
         "walk": "0.5 min walk"
-      }
+      },
+      "menuItems": [
+        {
+          "title": "Humous & Roast Pepper Sandwich",
+          "subtitle": "On white or Brown Bread",
+          "price": "5.6",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "title": "Humous & Roast Veg  Salad",
+          "subtitle": "With hot veg + base salad",
+          "price": "4",
+          "tags": [
+            "vegan",
+            "gluten-free"
+          ]
+        },
+        {
+          "title": "Spinach Pasta",
+          "subtitle": "With optional cream cheese",
+          "price": "4",
+          "tags": [
+            "vegetarian"
+          ]
+        }
+      ]
     },
     {
       "_id": "venue-02",
@@ -23,11 +50,21 @@
         "logo": "http://example.com/avatar"
       },
       "location": {
-        "lat": 52.950865,
-        "lng": -1.143302,
+        "lat": "52.950865",
+        "lng": "-1.143302",
         "city": "Nottingham",
         "walk": "1.5 min walk"
-      }
+      },
+      "menuItems": [
+        {
+          "title": "Mushroom and Spinach Pie",
+          "subtitle": "Served with chips + Onions rings",
+          "price": "8.9",
+          "tags": [
+            "vegetarian"
+          ]
+        }
+      ]
     },
     {
       "_id": "venue-03",
@@ -37,11 +74,63 @@
         "logo": "http://example.com/avatar"
       },
       "location": {
-        "lat": 52.953353,
-        "lng": -1.143487,
+        "lat": "52.953353",
+        "lng": "-1.143487",
         "city": "Nottingham",
         "walk": "2.5 min walk"
-      }
+      },
+      "menuItems": [
+        {
+          "title": "Christmas Sandwich",
+          "subtitle": "Served with tortilla chips",
+          "price": "4.5",
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ]
+        },
+        {
+          "title": "Greens and Grains soup",
+          "subtitle": "With a bread roll",
+          "price": "3.5",
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "venue-04",
+      "type": "venue",
+      "title": "Pret - Market Square (London)",
+      "media": {
+        "logo": "http://example.com/avatar"
+      },
+      "location": {
+        "lat": "52.953353",
+        "lng": "-1.143487",
+        "city": "London",
+        "walk": "2.5 min walk"
+      },
+      "menuItems": [
+        {
+          "title": "Christmas Sandwich",
+          "subtitle": "Served with tortilla chips",
+          "price": "4.5",
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ]
+        },
+        {
+          "title": "Greens and Grains soup",
+          "subtitle": "With a bread roll",
+          "price": "3.5",
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
     }
   ]
 }

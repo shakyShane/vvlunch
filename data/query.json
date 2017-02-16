@@ -1,0 +1,11 @@
+{
+  "language": "javascript",
+  "views": {
+    "city": {
+      "map": "function(doc) {\n  emit(doc.location.city, doc);\n}"
+    },
+    "places": {
+      "map": "function(doc) {\n  emit(doc.location.city, {title: doc.title, id: doc.id});\n}"
+    }
+  }
+}
