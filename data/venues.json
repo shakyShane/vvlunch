@@ -1,0 +1,47 @@
+{
+  "docs": [
+    {
+      "_id": "venue-01",
+      "type": "venue",
+      "title": "The Angel Inn",
+      "media": {
+        "logo": "http://example.com/avatar"
+      },
+      "location": {
+        "lat": 52.953353,
+        "lng": -1.143487,
+        "city": "Nottingham",
+        "walk": "0.5 min walk"
+      }
+    },
+    {
+      "_id": "venue-02",
+      "type": "venue",
+      "title": "Hungry Pumpkin",
+      "tagline": "Italian deli",
+      "media": {
+        "logo": "http://example.com/avatar"
+      },
+      "location": {
+        "lat": 52.950865,
+        "lng": -1.143302,
+        "city": "Nottingham",
+        "walk": "1.5 min walk"
+      }
+    },
+    {
+      "_id": "venue-03",
+      "type": "venue",
+      "title": "Pret - Market Square",
+      "media": {
+        "logo": "http://example.com/avatar"
+      },
+      "location": {
+        "lat": 52.953353,
+        "lng": -1.143487,
+        "city": "Nottingham",
+        "walk": "2.5 min walk"
+      }
+    }
+  ]
+}

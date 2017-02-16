@@ -1,0 +1,141 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #222;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.venue {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+}
+
+.venue__info {
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+}
+.venue__title {
+    margin-bottom: 0;
+    display: block;
+    width: 70%;
+}
+.venue__location {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    max-width: 30%;
+    background: #8eaf75;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 1;
+    padding: 5px 5px;
+}
+.venue__location__distance {
+    display: block;
+}
+.venue__location__walk {
+    display: block;
+}
+.venue__items {}
+
+.menu-items {
+    /*list-style: none;*/
+    /*margin-left: 0;*/
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.menu-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.menu-item {
+    list-style: none;
+    position: relative;
+    display: flex;
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    /*letter-spacing: 1px;*/
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #ccc9d0;
+    padding-bottom: 5px;
+}
+
+.menu-item__info {
+    /*outline: 1px solid red;*/
+    width: 80%;
+}
+
+.menu-item__tags {
+    margin-top: 5px;
+}
+
+.menu-item__tag {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 1px 4px 3px;
+    font-size: 10px;
+    background: #7cc28a;
+    color: white;
+}
+.menu-item__title {
+    display: block;
+}
+.menu-item__subtitle {
+    color: grey;
+}
+.menu-item__location {
+    color: grey;
+}
+.menu-item__price {
+    width: 20%;
+    /*outline: 1px solid blue;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    text-align: right;
+}
+
+[hl] {
+    outline: 1px solid red;
+}
+
+.venue__footer {
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    /*outline: 1px solid red;*/
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    background: whitesmoke;
+    border-top: 1px solid #d2d2d2
+}
+
+.venue__footer__contact {
+    width: 50%;
+    padding: 10px;
+}
+
+.venue__footer__map {
+    padding: 10px;
+    width: 50%;
+    border-left: 1px solid #d2d2d2
+}

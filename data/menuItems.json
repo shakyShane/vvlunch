@@ -1,0 +1,49 @@
+{
+  "docs": [
+    {
+      "_id": "item-01",
+      "venue_id": "venue-01",
+      "type": "menuItem",
+      "title": "Humous & Roast Pepper Sandwich",
+      "subtitle": "On white or Brown Bread",
+      "price": 5.6,
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "_id": "item-02",
+      "venue_id": "venue-01",
+      "type": "menuItem",
+      "title": "Humous & Roast Veg  Salad",
+      "subtitle": "With hot veg + base salad",
+      "price": 4,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "_id": "item-03",
+      "venue_id": "venue-01",
+      "type": "menuItem",
+      "title": "Spinach Pasta",
+      "subtitle": "With optional cream cheese",
+      "price": 4,
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "_id": "item-04",
+      "venue_id": "venue-02",
+      "type": "menuItem",
+      "title": "Mushroom and Spinach Pie",
+      "subtitle": "Served with chips + Onions rings",
+      "price": 8.9,
+      "tags": [
+        "vegetarian"
+      ]
+    }
+  ]
+}
