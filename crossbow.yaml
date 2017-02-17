@@ -1,0 +1,18 @@
+env:
+  DB_DOMAIN: http://127.0.0.1:5984
+  DB_URL: http://127.0.0.1:5984/vvlunch
+
+tasks:
+  seed:
+    - >
+      @sh curl -X DELETE $DB_URL
+    - >
+      @sh curl -X PUT $DB_URL
+    - >
+      @sh curl -X PUT $DB_URL/_design/query
+      -H 'content-type: application/json'
+      -d  @data/query.json
+    - >
+      @sh curl -X POST $DB_URL/_bulk_docs
+      -H 'content-type: application/json'
+      -d  @data/venues.json
